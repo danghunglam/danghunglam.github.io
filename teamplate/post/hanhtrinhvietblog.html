@@ -21,8 +21,8 @@
   <!-- Custom styles for this template -->
   <link href="../../css/clean-blog.min.css" rel="stylesheet">
 
-  <link href="../header.html" rel="import" id="templates_header"/>
-  <link href="../footer.html" rel="import" id="templates_footer"/>
+  <link href="../../header.html" rel="import" id="templates_header"/>
+  <link href="../../footer.html" rel="import" id="templates_footer"/>
 
 </head>
 
@@ -140,14 +140,14 @@
     var header = headers.getElementById('header');
     var clone_header = document.importNode(header.content, true);
 
-    jQuery('#mainNav').appendChild(clone_header);
+    $('#mainNav').appendChild(clone_header);
 
     var templatesFooter = document.getElementById('templates_footer');
     var footers = templatesFooter.import
     var footer = footers.getElementById('header');
     var clone_footer = document.importNode(footer.content, true);
 
-    jQuery('#footer').appendChild(clone_footer);
+    $('#footer').appendChild(clone_footer);
 
   </script>
 
