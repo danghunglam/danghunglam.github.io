@@ -23,7 +23,7 @@
 
   <link href="teamplate/header.html" rel="import" id="templates_header"/>
   <link href="teamplate/footer.html" rel="import" id="templates_footer"/>
-  <link href="teamplate/about_content.html" rel="import" id="templates_main"/>
+  <link href="teamplate/about_content.html" rel="import" id="templates_about_content"/>
 
 </head>
 
@@ -83,7 +83,7 @@
 
     document.querySelector('#footer').appendChild(clone_footer);
 
-    var templatesMain = document.getElementById('templates_main');
+    var templatesMain = document.getElementById('templates_about_content');
     var mains = templatesMain.import
     var main = mains.getElementById('main');
     var clone_main = document.importNode(main.content, true);
