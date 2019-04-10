@@ -138,14 +138,14 @@
     var templatesHeader = document.getElementById('templates_header');
     var headers = templatesHeader.import
     var header = headers.getElementById('header');
-    var clone = document.importNode(template.content, true);
+    var clone = document.importNode(header.content, true);
 
     $('#mainNav').appendChild(clone);
 
     var templatesFooter = document.getElementById('templates_footer');
     var footers = templatesFooter.import
     var footer = footers.getElementById('header');
-    var clone = document.importNode(template.content, true);
+    var clone = document.importNode(footer.content, true);
 
     $('#footer').appendChild(clone);
 
