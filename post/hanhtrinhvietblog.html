@@ -166,14 +166,12 @@
   <script src="../js/clean-blog.min.js"></script>
 
   <script type="text/javascript">
-    // var templatesImport = document.getElementById('templates');
-    // var templates = templatesImport.import
-    // var template = templates.getElementById('header');
-    // var clone = document.importNode(template.content, true);
+    var templatesImport = document.getElementById('templates');
+    var templates = templatesImport.import
+    var template = templates.getElementById('header');
+    var clone = document.importNode(template.content, true);
 
-    
-
-    $('#mainNav').load('../teamplate/header.html');
+    $('#mainNav').appendChild(clone);
 
   </script>
 
