@@ -138,7 +138,9 @@
   <hr>
 
   <!-- Footer -->
-  
+  <footer id="footer">
+    
+  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -153,7 +155,7 @@
     var header = headers.getElementById('header');
     var clone_header = document.importNode(header.content, true);
 
-    $('#mainNav').appendChild(clone_header);
+    document.querySelector('#mainNav').appendChild(clone_header);
 
     // var templatesFooter = document.getElementById('templates_footer');
     // var footers = templatesFooter.import
