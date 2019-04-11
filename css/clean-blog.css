@@ -407,3 +407,20 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+
+.flex-box {
+    display: flex;
+}
+.align-item-center{
+    align-items: center;
+}
+.images{
+    float: left;
+    margin-right: 10px;
+    display: block;
+    position: relative;
+}
+
+.description-blog{
+    margin-top: -5%;
+}
