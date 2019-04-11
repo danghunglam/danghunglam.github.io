@@ -83,12 +83,12 @@
 
     document.querySelector('#footer').appendChild(clone_footer);
 
-    var templatesMain = document.getElementById('templates_about_content');
-    var mains = templatesMain.import
-    var main = mains.getElementById('main');
-    var clone_main = document.importNode(main.content, true);
+    var templates_about_main = document.getElementById('templates_about_content');
+    var about_mains = templates_about_main.import
+    var about_main = about_mains.getElementById('main');
+    var clone_about_main = document.importNode(about_main.content, true);
 
-    document.querySelector('#main_content').appendChild(clone_main);
+    document.querySelector('#main_content').appendChild(clone_about_main);
 
   </script>
 
