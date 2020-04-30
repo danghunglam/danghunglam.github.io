@@ -32,7 +32,7 @@
     "@fortawesome/fontawesome-free": "5.8.1",
     "bootstrap": "4.3.1",
     "gulp-template-html": "^0.2.2",
-    "jquery": "3.3.1"
+    "jquery": "3.5.0"
   },
   "devDependencies": {
     "browser-sync": "2.26.3",
